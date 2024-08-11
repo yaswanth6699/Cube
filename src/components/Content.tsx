@@ -12,7 +12,7 @@ const Content = ({ selectedUser }: { selectedUser: UserTypes }) => {
 
       {isLoading ? (
         <div className="placeholder">
-          <h2>isFetching Images....</h2>
+          <h2>Loading Images....</h2>
         </div>
       ) : (
         <div className="img-row">
